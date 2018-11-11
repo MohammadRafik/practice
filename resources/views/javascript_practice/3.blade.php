@@ -31,11 +31,12 @@
             max = Math.floor(max);
             return Math.floor(Math.random()*(max-min))+min;
         }
+        //instead of this function i couda done RandomNumber = Math.ceil(Math.random()*10);
 
         RandomNumber = getRandomInt(1,10);
         num = window.prompt('guess the number the computer generated from 1 to 10');
         if(num == RandomNumber){
-            document.write('good job! the number was '+RandomNumber+);
+            document.write('good job! the number was '+RandomNumber);
         }
         else{
             document.write('WROOOOOOOOOOOOOOOOOOOOOONG! the correct answer was '+RandomNumber);
