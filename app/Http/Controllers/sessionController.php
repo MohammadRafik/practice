@@ -10,4 +10,9 @@ class sessionController extends Controller
         $id = request('id');
         return view('javascript_practice.' . $id);
     }
+
+    public function vueSession(){
+        $id = request('id');
+        return view('learning_vueJS.' . $id);
+    }
 }

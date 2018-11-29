@@ -20,3 +20,13 @@ Route::get('/session/{id}', 'sessionController@s1');
 Route::get('session1', function() {
     return view('javascript_practice.session_1');
 });
+
+Route::get('/PHPtests', function(){
+    return view('PHPtests');
+});
+
+Route::get('VueSession/{id}', 'sessionController@VueSession');
+
+Route::get('vue', function(){
+    return view('learning_vueJS.vue');
+});
