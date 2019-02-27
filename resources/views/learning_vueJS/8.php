@@ -8,8 +8,29 @@
 </head>
 <body>
 
+<div id='app'>
+    <form action="">
+    
+        <span v-if="message == ''" style="color:red;"> You must write in the textarea</span><br>
+        
+    
+        <textarea v-model='message'></textarea><br>
+        <p>{{ message }}</p>
 
+        <button type="submit">Submit</button>
+    </form>
 
+    <script>
+    var vueapp = new Vue({
+        el: '#app',
+        data: {
+            message: ''
+        }
+    })
+
+    
+    </script>
+</div>
 
 
 </body>

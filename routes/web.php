@@ -30,3 +30,6 @@ Route::get('VueSession/{id}', 'sessionController@VueSession');
 Route::get('vue', function(){
     return view('learning_vueJS.vue');
 });
+
+
+Route::get('dataStructuresAndAlgorithems/{id}', 'sessionController@jsSession');

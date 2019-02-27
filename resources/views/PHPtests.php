@@ -11,6 +11,7 @@
  </form>
 <?php
 //Retrieve name from query string and store to a local variable
+phpinfo();
 $current_file_name = basename($_SERVER['PHP_SELF']);
 echo $current_file_name."\n";
 
