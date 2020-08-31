@@ -1,1 +1,4 @@
-practicing javascript and learning vue.js
+practicing
+javascript
+learning vue.js
+learning nginx
